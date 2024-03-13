@@ -1,6 +1,4 @@
-# Decision-Tree_Random-Forest_Predict-2023-NBA-All-Stars
- Predict 2023 NBA All-Stars with 3 variations of decision tree and of random forest modeling.
-
+# Decision Trees & Random Forests Predict 2023 NBA All-Stars
 This project will attempt to discover observed variables that are associated with past NBA All-Star Teams to predict the 2022-2023 NBA All-Star Team through three variations of decision tree and of random forest modeling.    
 
 ![Basketball surrounded by court floor and seed brackets.  Text says “Predicting All-Star 2023” next to NBA logo.](figs/intro.png)
@@ -29,7 +27,7 @@ A decision tree is flexible and easy to understand.  As a nonparametric approach
 ### **Unpruned Decision Tree**
 More leaves can represent a more complex decision boundary than trees with fewer leaves, but an overly complex model may not generalize well with unseen instances (Tan et al., 2019).
 
-![Decision tree allowed to grow completely, pure leaves, unpruned.](figs/ft_full.png)
+![Decision tree allowed to grow completely, pure leaves, unpruned.](figs/dt_full.png)
 
 ### **Optimal Max-Depth Pruned Decision Tree**
 In order to reduce the depth of the decision tree, we used `GridSearchCV` to build trees ranging in depth from 1 to 13, compare training accuracy of each tree, and then select the model that produced the highest training accuracy.  
@@ -73,6 +71,7 @@ The decision trees (even the pruned ones) held lower predictive accuracy than th
 
 ## Reference
 Bruce, P., Bruce, A., & Gedeck, P. (2020). *Practical statistics for data scientists: 50+ essential concepts using R and Python* (2nd ed.). O’Reilly.
+
 Tan, P-N., Steinbach, M., Karpatne, A., & Kumar, V. (2019). *Data mining* (2nd ed.). Pearson.
 
 ## License
