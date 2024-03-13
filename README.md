@@ -65,7 +65,7 @@ Feature importance fluctuated slightly and changed rankings rarely between rando
 
 ![Unpruned decision tree accuracy is 95.3%.  All other decision trees are at 96.9%.  The random forests with 100 trees and 1,00 trees have 97.3% accuracy, while 500 trees tops out at 97.5%.](figs/accuracy.png)
 
-The random forest with 500 trees held the highest predictive accuracy at 97.5%; however, only 21 players were predicted.  If we examine the next couple of players whose majority vote was closest to being an “All-Star” (class 1), we add Jrue Holiday, Bam Adebayo, and Trae Young to the roster.  This changes the accuracy from 97.5 to 97.7.
+The random forest with 500 trees held the highest predictive accuracy at 97.5%; however, only 21 players were predicted.  If we examine the next couple of players whose majority vote was closest to being an “All-Star” (class 1), we add Jrue Holiday, Bam Adebayo, and Trae Young to the roster.  This changes the accuracy from 97.5 to 97.7%.
 
 The decision trees (even the pruned ones) held lower predictive accuracy than the random forests.    
 
